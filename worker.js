@@ -1,5 +1,4 @@
-import cheerio from 'cheerio';
-
+import * as cheerio from 'cheerio';
 async function fetchLevelData() {
   try {
     const response = await fetch('https://www.rickgdps.xyz/datastore/dashboard/stats/modActionsList.php', {
