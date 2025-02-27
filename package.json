@@ -1,0 +1,3 @@
+"scripts": {
+  "build": "esbuild worker.js --bundle --outfile=dist/worker.js --platform=browser"
+}
