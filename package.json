@@ -1,3 +1,14 @@
-"scripts": {
-  "build": "esbuild worker.js --bundle --outfile=dist/worker.js --platform=browser"
+{
+  "name": "rickgdps-api-worker",
+  "version": "1.0.0",
+  "main": "worker.js",
+  "scripts": {
+    "build": "esbuild worker.js --bundle --outfile=dist/worker.js --platform=browser"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  },
+  "devDependencies": {
+    "esbuild": "^0.20.0"
+  }
 }
