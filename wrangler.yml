@@ -1,7 +1,7 @@
 name = "rickgdps-api-worker"
 type = "javascript"
 
-main = "dist/worker.js"          # Set the entry point to your built file
+main = "worker.js"          # Set the entry point to your built file
 compatibility_date = "2025-02-27"
 
 [build]
