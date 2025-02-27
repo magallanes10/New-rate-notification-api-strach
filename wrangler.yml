@@ -1,0 +1,5 @@
+name = "rickgdps-api-worker"
+type = "javascript"
+account_id = "6159386ef34e647b4d6d04f30df0b53e"
+workers_dev = true
+compatibility_date = "2025-02-27"
