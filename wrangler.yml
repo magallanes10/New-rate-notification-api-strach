@@ -1,8 +1,8 @@
 name = "rickgdps-api-worker"
 type = "javascript"
 
-main = "dist/worker.js"   # Tell Wrangler where your built script is
+main = "dist/worker.js"          # Set the entry point to your built file
 compatibility_date = "2025-02-27"
 
 [build]
-command = "npm run build"
+command = "npm run build"        # Build command
