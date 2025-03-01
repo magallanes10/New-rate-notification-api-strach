@@ -1,7 +1,7 @@
 {
   "name": "rickgdps-api-worker",
   "version": "1.0.0",
-  "main": "worker.js",
+  "main": "index.js",
   "scripts": {
     "build": "esbuild worker.js --bundle --outfile=dist/worker.js --platform=browser",
     "deploy": "npx wrangler deploy",
@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
-    "axios": "^1.7.9"
+    "axios": "^1.7.9",
+    "express": "^4.21.2"
   },
   "devDependencies": {
     "esbuild": "^0.20.0"
