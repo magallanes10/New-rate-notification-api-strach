@@ -4,10 +4,12 @@
   "main": "worker.js",
   "scripts": {
     "build": "esbuild worker.js --bundle --outfile=dist/worker.js --platform=browser",
-    "deploy": "npx wrangler deploy"
+    "deploy": "npx wrangler deploy",
+    "start": "node index"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.12"
+    "cheerio": "^1.0.0-rc.12",
+    "axios": "^1.7.9"
   },
   "devDependencies": {
     "esbuild": "^0.20.0"
