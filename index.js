@@ -3,7 +3,7 @@ const axios = require('axios');
 const cheerio = require('cheerio');
 
 const app = express();
-const PORT = 25622;
+const PORT = 3271;
 
 const fetchLevelData = async () => {
   try {
